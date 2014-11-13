@@ -6,7 +6,8 @@
 package boletin_9_4;
 public class Boletin_9_4 {
     public static void main(String[] args) {
-        // TODO code application logic here
+        Tabla obj = new Tabla();
+        obj.tablaMul();
     }
     
 }
