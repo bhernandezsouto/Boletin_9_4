@@ -14,8 +14,11 @@ public class Tabla {
         numero = Integer.parseInt(respuesta);
     }
     public void tablaMul(){
+        String tabla;
+        tabla="";
         for (int i=1; i<=12;i++){
-            JOptionPane.showMessageDialog(null, "" + numero + " * " + i + " = " + (numero*i));
+            tabla= tabla +("" + numero + " * " + i + " = " + (numero*i) + "\n");
         }
+        JOptionPane.showMessageDialog(null, tabla);
     }
 }
